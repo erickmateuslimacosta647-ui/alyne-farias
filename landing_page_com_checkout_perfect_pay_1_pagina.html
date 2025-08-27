@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Assinatura – Página Oficial</title>
+  <meta name="description" content="Assine agora e tenha acesso imediato. Pagamento 100% seguro pela PerfectPay." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Tailwind via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { color-scheme: light dark; }
+    html { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji'; }
+    .gradient-bg { background: radial-gradient(1200px 600px at 80% -10%, rgba(99,102,241,.25), transparent 60%), radial-gradient(900px 500px at -10% 10%, rgba(34,197,94,.2), transparent 55%), linear-gradient(180deg, #0b1020 0%, #0e1324 100%); }
+    .glass { backdrop-filter: blur(10px); background: rgba(255,255,255,.06); }
+  </style>
+</head>
+<body class="text-slate-100 bg-slate-950">
+  <!-- AVISO IMPORTANTE: Substitua TODAS as ocorrências de CHECKOUT_URL pelo seu link de checkout da PerfectPay -->
+  <!-- Exemplo: https://app.perfectpay.com.br/checkout?some=params -->
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 border-b border-white/10 bg-slate-950/70 backdrop-blur">
+    <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="h-9 w-9 rounded-2xl bg-indigo-500/20 grid place-items-center text-indigo-300 font-bold">A</div>
+        <span class="font-semibold">Assinatura Oficial</span>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm text-slate-300">
+        <a href="#beneficios" class="hover:text-white">Benefícios</a>
+        <a href="#planos" class="hover:text-white">Planos</a>
+        <a href="#faq" class="hover:text-white">Dúvidas</a>
+      </nav>
+      <a href="CHECKOUT_URL" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-2xl bg-indigo-500 hover:bg-indigo-600 px-4 py-2 text-sm font-semibold">Assinar agora</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="gradient-bg">
+    <div class="mx-auto max-w-6xl px-4 py-16 md:py-24 grid md:grid-cols-2 items-center gap-10">
+      <div>
+        <h1 class="text-3xl md:text-5xl font-extrabold leading-tight">Acesso imediato ao conteúdo da assinatura</h1>
+        <p class="mt-4 text-slate-300">Pagamento 100% seguro via PerfectPay. Cancele quando quiser. Atualizações frequentes e suporte rápido.</p>
+        <div class="mt-6 flex flex-col sm:flex-row gap-3">
+          <a href="CHECKOUT_URL" target="_blank" rel="noopener" class="rounded-2xl bg-indigo-500 hover:bg-indigo-600 px-6 py-3 font-semibold text-center">Quero assinar</a>
+          <a href="#beneficios" class="rounded-2xl border border-white/15 hover:border-white/30 px-6 py-3 text-center">Ver benefícios</a>
+        </div>
+        <div class="mt-6 text-xs text-slate-400">Aceitamos cartão, Pix e boleto. Compra protegida e nota fiscal sob solicitação.</div>
+      </div>
+      <div class="glass rounded-3xl p-3 md:p-4 border border-white/10">
+        <!-- GALERIA / BANNER: Troque os src abaixo pelas suas imagens -->
+        <div class="grid grid-cols-3 gap-3">
+          <img class="rounded-2xl aspect-[4/5] object-cover" src="https://images.unsplash.com/photo-1536300099515-6c61b290b654?q=80&w=1200&auto=format&fit=crop" alt="Preview 1">
+          <img class="rounded-2xl aspect-[4/5] object-cover" src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop" alt="Preview 2">
+          <img class="rounded-2xl aspect-[4/5] object-cover" src="https://images.unsplash.com/photo-1519999482648-25049ddd37b1?q=80&w=1200&auto=format&fit=crop" alt="Preview 3">
+          <img class="rounded-2xl aspect-[4/5] object-cover" src="https://images.unsplash.com/photo-1515165562835-c3b8c2e5d3bc?q=80&w=1200&auto=format&fit=crop" alt="Preview 4">
+          <img class="rounded-2xl aspect-[4/5] object-cover" src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?q=80&w=1200&auto=format&fit=crop" alt="Preview 5">
+          <img class="rounded-2xl aspect-[4/5] object-cover" src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1200&auto=format&fit=crop" alt="Preview 6">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefícios -->
+  <section id="beneficios" class="mx-auto max-w-6xl px-4 py-16">
+    <h2 class="text-2xl md:text-3xl font-bold">O que você recebe</h2>
+    <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="glass rounded-3xl p-6 border border-white/10">
+        <h3 class="font-semibold text-lg">Acesso imediato</h3>
+        <p class="mt-2 text-slate-300">Após o pagamento, o acesso é liberado automaticamente pelo seu e-mail.</p>
+      </div>
+      <div class="glass rounded-3xl p-6 border border-white/10">
+        <h3 class="font-semibold text-lg">Atualizações frequentes</h3>
+        <p class="mt-2 text-slate-300">Conteúdo novo com regularidade para manter sua assinatura sempre valiosa.</p>
+      </div>
+      <div class="glass rounded-3xl p-6 border border-white/10">
+        <h3 class="font-semibold text-lg">Suporte rápido</h3>
+        <p class="mt-2 text-slate-300">Atendimento via WhatsApp ou e-mail em horário comercial.</p>
+      </div>
+      <div class="glass rounded-3xl p-6 border border-white/10">
+        <h3 class="font-semibold text-lg">Pagamento seguro</h3>
+        <p class="mt-2 text-slate-300">Processado pela PerfectPay com criptografia e antifraude.</p>
+      </div>
+      <div class="glass rounded-3xl p-6 border border-white/10">
+        <h3 class="font-semibold text-lg">Sem fidelidade</h3>
+        <p class="mt-2 text-slate-300">Cancele quando quiser diretamente pela área do cliente.</p>
+      </div>
+      <div class="glass rounded-3xl p-6 border border-white/10">
+        <h3 class="font-semibold text-lg">Garantia de satisfação</h3>
+        <p class="mt-2 text-slate-300">Se não curtir, entre em contato que resolvemos rapidinho.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Planos / CTA -->
+  <section id="planos" class="bg-white/5 border-y border-white/10">
+    <div class="mx-auto max-w-6xl px-4 py-16">
+      <h2 class="text-2xl md:text-3xl font-bold">Escolha seu plano</h2>
+      <div class="mt-8 grid lg:grid-cols-3 gap-6">
+        <div class="glass rounded-3xl p-6 border border-white/10">
+          <div class="text-sm text-slate-300">Mensal</div>
+          <div class="mt-2 text-3xl font-extrabold">R$ 00,00</div>
+          <ul class="mt-4 space-y-2 text-slate-300 text-sm">
+            <li>✔️ Acesso total</li>
+            <li>✔️ Conteúdo atualizado</li>
+            <li>✔️ Suporte incluso</li>
+          </ul>
+          <a href="CHECKOUT_URL" target="_blank" rel="noopener" class="mt-6 inline-flex w-full justify-center rounded-2xl bg-indigo-500 hover:bg-indigo-600 px-6 py-3 font-semibold">Assinar agora</a>
+        </div>
+        <div class="glass rounded-3xl p-6 border border-white/10 ring-2 ring-indigo-500">
+          <div class="text-sm text-slate-300">Trimestral</div>
+          <div class="mt-2 text-3xl font-extrabold">R$ 00,00</div>
+          <ul class="mt-4 space-y-2 text-slate-300 text-sm">
+            <li>✔️ Tudo do mensal</li>
+            <li>✔️ Economia no pacote</li>
+            <li>✔️ Suporte prioritário</li>
+          </ul>
+          <a href="CHECKOUT_URL" target="_blank" rel="noopener" class="mt-6 inline-flex w-full justify-center rounded-2xl bg-indigo-500 hover:bg-indigo-600 px-6 py-3 font-semibold">Assinar agora</a>
+        </div>
+        <div class="glass rounded-3xl p-6 border border-white/10">
+          <div class="text-sm text-slate-300">Anual</div>
+          <div class="mt-2 text-3xl font-extrabold">R$ 00,00</div>
+          <ul class="mt-4 space-y-2 text-slate-300 text-sm">
+            <li>✔️ 2 meses grátis</li>
+            <li>✔️ Bônus exclusivos</li>
+            <li>✔️ Suporte VIP</li>
+          </ul>
+          <a href="CHECKOUT_URL" target="_blank" rel="noopener" class="mt-6 inline-flex w-full justify-center rounded-2xl bg-indigo-500 hover:bg-indigo-600 px-6 py-3 font-semibold">Assinar agora</a>
+        </div>
+      </div>
+      <p class="mt-4 text-xs text-slate-400">*Valores apenas ilustrativos. Edite conforme seu preço.</p>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section class="mx-auto max-w-6xl px-4 py-16">
+    <h2 class="text-2xl md:text-3xl font-bold">O que falam</h2>
+    <div class="mt-8 grid md:grid-cols-3 gap-6">
+      <blockquote class="glass rounded-3xl p-6 border border-white/10 text-slate-300">“Conteúdo excelente e entrega rápida. Recomendo!”<div class="mt-3 text-sm text-slate-400">— Cliente verificado</div></blockquote>
+      <blockquote class="glass rounded-3xl p-6 border border-white/10 text-slate-300">“Assinei e valeu a pena. Suporte atencioso.”<div class="mt-3 text-sm text-slate-400">— Cliente verificado</div></blockquote>
+      <blockquote class="glass rounded-3xl p-6 border border-white/10 text-slate-300">“Processo de compra simples e seguro.”<div class="mt-3 text-sm text-slate-400">— Cliente verificado</div></blockquote>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="bg-white/5 border-y border-white/10">
+    <div class="mx-auto max-w-6xl px-4 py-16">
+      <h2 class="text-2xl md:text-3xl font-bold">Dúvidas frequentes</h2>
+      <div class="mt-6 divide-y divide-white/10">
+        <details class="group py-4">
+          <summary class="cursor-pointer flex items-center justify-between text-left font-semibold">Como recebo o acesso?
+            <span class="transition group-open:rotate-180">⌄</span>
+          </summary>
+          <p class="mt-2 text-slate-300">Seu acesso é enviado automaticamente para o e-mail usado na compra.</p>
+        </details>
+        <details class="group py-4">
+          <summary class="cursor-pointer flex items-center justify-between text-left font-semibold">Quais formas de pagamento?
+            <span class="transition group-open:rotate-180">⌄</span>
+          </summary>
+          <p class="mt-2 text-slate-300">Cartão de crédito, Pix e boleto, processados com segurança pela PerfectPay.</p>
+        </details>
+        <details class="group py-4">
+          <summary class="cursor-pointer flex items-center justify-between text-left font-semibold">Posso cancelar quando quiser?
+            <span class="transition group-open:rotate-180">⌄</span>
+          </summary>
+          <p class="mt-2 text-slate-300">Sim, sem fidelidade. Cancele pela área do cliente ou entre em contato conosco.</p>
+        </details>
+      </div>
+      <div class="mt-8">
+        <a href="CHECKOUT_URL" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-2xl bg-indigo-500 hover:bg-indigo-600 px-6 py-3 font-semibold">Assinar com segurança</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="mx-auto max-w-6xl px-4 py-10 text-sm text-slate-400">
+    <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+      <div>
+        <div class="font-semibold text-slate-200">Assinatura Oficial</div>
+        <div>CNPJ 00.000.000/0000-00 (edite aqui)</div>
+        <div class="mt-1">Suporte: suporte@seudominio.com</div>
+      </div>
+      <div class="flex items-center gap-3">
+        <!-- Troque o link do WhatsApp abaixo pelo seu número -->
+        <a class="rounded-2xl border border-white/15 hover:border-white/30 px-4 py-2" href="https://wa.me/5599999999999" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="rounded-2xl border border-white/15 hover:border-white/30 px-4 py-2" href="#" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+    <div class="mt-6 text-xs text-slate-500">© <span id="year"></span> Todos os direitos reservados. Esta é uma página de demonstração; personalize textos, imagens e preços antes de publicar.</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
